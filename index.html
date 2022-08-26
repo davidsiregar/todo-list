@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/general.css">
+
+  <title>Todo-List</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="container__left">
+      <h1 class="todo text-center">Todo-List</h1>
+      <p class="header-text text-center">List Your
+        Duties</p>
+      <div class="show-todo" id="show-todo"></div>
+    </div>
+
+    <div class="container__right">
+      <div class="card">
+        <div class="card__form">
+          <label for="todo" class="label-todo"
+            id="label-todo">
+            Input Your Todo
+          </label>
+          <input type="text" id="todo-input"
+            class="todo-input text-center">
+          <button type="submit" class="btn-submit"
+            id="btn-submit" onclick="addTodoList()">Add
+            Todo</button>
+          <p class="footer-todo">add todo list</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- git branch -M main -->
